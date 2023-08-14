@@ -26,6 +26,7 @@ head(data_amzn4)
 
 ####
 library(quantmod)
+?quantmod
 data_amzn5=getSymbols("AMZN",
                       from ="2014-12-31",
                       to = "2020-01-01", auto.assign = FALSE)
